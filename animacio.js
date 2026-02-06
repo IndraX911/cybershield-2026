@@ -14,28 +14,28 @@ window.addEventListener('load', () => {
     }
 
    const messages = [
-    "CYBERSHIELD KERNEL v4.1.0-release [LTS]",
+    "CYBERSHIELD Kernel v4.1.0-release [LTS]",
     "Rendszer-indítási idő: " + new Date().toLocaleString('hu-HU'),
     " ",
-    "Checking CPU: AMD Ryzen 5 2026-X @ 5.4GHz... OK",
-    "Checking Memory: 8192MB ECC DDR4... OK",
-    "Initializing localized sub-systems (HU_hu)... Done.",
+    "CPU ellenőrzése: AMD Ryzen 5 2026-X @ 5.4GHz... OK",
+    "Memória ellenőrzése: 8192MB ECC DDR4... OK",
+    "Lokalizált alrendszerek inicializálása (HU_hu)... Kész.",
     " ",
     "C:\\Users\\Admin-PC> start security_audit.sh",
     "--------------------------------------------------",
-    "MEM_SCAN: Analysing 0x0045FF12... Found hidden process.",
-    "NET_MAP: Mapping local network nodes [192.168.0.1/24]",
-    "NODE_01: Active [Firewall detected]",
-    "NODE_01: Bypassing auth_module_v2... [8%... 45%... 89%]",
-    "NODE_01: ACCESS_GRANTED. Token: 4f82-a912-bc03",
+    "MEM_SCAN: 0x0045FF12 elemzése... Rejtett folyamat azonosítva.",
+    "NET_MAP: Helyi hálózati csomópontok feltérképezése [192.168.0.1/24]",
+    "NODE_01: Aktív [Tűzfal észlelve]",
+    "NODE_01: auth_module_v2 megkerülése... [8%... 45%... 89%]",
+    "NODE_01: HOZZÁFÉRÉS MEGADVA. Token: 4f82-a912-bc03",
     " ",
-    "FIREWALL_STATUS: Hijacked.",
-    "ENCRYPTION: AES-256 handshake established.",
-    "PACKET_SNIFFER: Capturing incoming traffic...",
-    "VULNERABILITY_SCAN: Port 80, 443 open. Injecting...",
+    "TŰZFAL_ÁLLAPOT: Megszállva.",
+    "TITKOSÍTÁS: AES-256 kézfogás létrejött.",
+    "CSOMAG_SZIFFROZÓ: Bejövő forgalom rögzítése...",
+    "SEBZHETŐSÉG_VIZSGÁLAT: 80-as, 443-as port nyitva. Injektálás...",
     " ",
-    "ROOT_ACCESS: User 'Admin_Root' identified.",
-    "STATUS: System compromised successfully.",
+    "ROOT_HOZZÁFÉRÉS: 'Admin_Root' felhasználó azonosítva.",
+    "ÁLLAPOT: Rendszer sikeresen feltörve.",
     "--------------------------------------------------",
     "Betöltés befejezése: CyberShield Interfész v2026",
     "INDÍTÁS..."
@@ -88,4 +88,5 @@ window.addEventListener('load', () => {
 
     // Indítás
     setTimeout(typeChar, 200);
+
 });
